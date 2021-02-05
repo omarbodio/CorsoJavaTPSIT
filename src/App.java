@@ -1,3 +1,4 @@
+
 class Runner extends Thread {
     @Override
     public void run() {
@@ -17,9 +18,10 @@ class Runner extends Thread {
 public class App{
     public static void main(String[] args) throws Exception {
         Runner runner1 = new Runner();
-        runner1.start();
+        //runner1.run() Main Thread --> errore
+        runner1.start(); //Thread secondario 1
 
         Runner runner2 = new Runner();
-        runner2.start();
+        runner2.start(); //Thread secondario 2
     }
 }
