@@ -1,5 +1,5 @@
 import java.util.*;
-import System.*;
+//import java.;
 
 
 public class App {
@@ -7,11 +7,11 @@ public class App {
     public static void main(String[] args) throws Exception{
         Processor proc1 = new Processor();
         proc1.start();
-        Scanner
+        
         System.out.println("press return to stop...");
         Scanner scanner = new Scanner(System.in);
         scanner.nextLine();
-        proc1.shutdown()
+        proc1.shutdown();
     }
 }
 
