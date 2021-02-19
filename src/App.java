@@ -1,4 +1,7 @@
-public class Processor extends Thread{
+import java.util.Scanner;
+
+
+
     private boolean running = true;
     @Override
     public void run() {
@@ -13,11 +16,25 @@ public class Processor extends Thread{
             }
         }
     }
+    public void shutdown() {
+        running = false;
+    }
 }
 
 public class App {
 
-    private int count = 0;
+    public static void main(String[] args) throws Exception{
+        Processor proc1 = new Processor();
+        proc1.start();
+        Scanner
+        System.out.println("press return to stop...");
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
+        proc1.shutdown()
+    }
+}
+
+/*private int count = 0;
 
     public synchronized void increment() {
         count++;
@@ -58,6 +75,4 @@ public class App {
             e.printStackTrace();
         }       
 
-        System.out.println("Count is: " + count);
-    }
-}
+        System.out.println("Count is: " + count);*/
