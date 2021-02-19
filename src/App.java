@@ -1,27 +1,47 @@
 
-class Runner extends Thread {
-    @Override
-    public void run() {
-        for(int i=0; i<10; i++){
-            System.out.println("Hello "+ i);
+public class App {
 
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                //TODO: handle exception
-                e.printStackTrace();
-            }
-        }
+    private int count = 0;
+
+    public synchronized void increment() {
+        count++;
     }
-}
 
-public class App{
-    public static void main(String[] args) throws Exception {
-        Runner runner1 = new Runner();
-        //runner1.run() Main Thread --> errore
-        runner1.start(); //Thread secondario 1
+    public static void main(String[] args) {
+        App app = new App();
+        app.doWork();       
+    }
 
-        Runner runner2 = new Runner();
-        runner2.start(); //Thread secondario 2
+    public void doWork() {
+
+        Thread t1 = new Thread(new Runnable(){
+            public void run(){
+
+                for(int i = 0; i < 10000; i++){
+                    increment();
+                }
+            } 
+        });
+
+        Thread t2 = new Thread(new Runnable(){
+            public void run(){
+                
+                for(int i = 0; i < 10000; i++){
+                    increment();
+                }
+            } 
+        });
+
+        t1.start();
+        t2.start();
+
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }       
+
+        System.out.println("Count is: " + count);
     }
 }
