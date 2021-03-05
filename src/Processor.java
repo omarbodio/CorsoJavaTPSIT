@@ -6,16 +6,12 @@ public class Processor extends Runnable{
         this.id = id;
     }
     public void run() {
-        while(running)
-        {
-            System.out.println("hello");
-            try {
-                Thread.sleep(5000);
-            } catch (InterruptedException e) {
-            }
+        System.out.println("Starting: " + id);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
         }
+        System.out.println("Complete:" + id);
     }
-    public void shutdown() {
-        running = false;
-    }
+    
 }
