@@ -1,16 +1,17 @@
-public class Processor extends Thread{
-    private boolean running = true;
-    @Override
+public class Processor extends Runnable{
+   
+    private int id;
+
+    public Processor(int id) {
+        this.id = id;
+    }
     public void run() {
         while(running)
         {
             System.out.println("hello");
             try {
-                Thread.sleep(100);
-            } catch (Exception e) {
-                //TODO: handle exception
-                e.printStackTrace();
-                
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
             }
         }
     }
