@@ -28,7 +28,13 @@ class App {
 
         for (int i = 0; i < 3; i++) {
 
-            executor.submit(new.Processor(latch));
+            executor.submit(new Processor(latch));
+        }
+        try {
+            latch.await();
+        } catch (InterruptedException e) {
+            //TODO: handle exception
+            e.printStackTrace();
         }
         
     }
