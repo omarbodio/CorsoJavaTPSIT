@@ -1,4 +1,5 @@
-import java.util.concurrent.CountDownLatch;
+
+import java.util.concurrent.*;
 
 class Processor implements Runnable{
     private CountDownLatch latch;
@@ -18,10 +19,17 @@ class Processor implements Runnable{
 
     }
 }
-class App extends {
+class App {
     public static void main(String[] args) {
         
         CountDownLatch latch = new CountDownLatch(3);
+
+        ExecutorService executor = Executors.newFixedThreadPool(3);
+
+        for (int i = 0; i < 3; i++) {
+
+            executor.submit(new.Processor(latch));
+        }
         
     }
 }
