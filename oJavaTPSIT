@@ -1,0 +1,132 @@
+[33mcommit fee7dbbbf949c06fc7ce4c55e66225e5c11ee9fe[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Mar 5 09:31:40 2021 +0100
+
+    helppppp
+
+[33mcommit 71516d245db42ce5f7944cde8ac20ae331fc8d6b[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Mar 5 09:09:19 2021 +0100
+
+    surch error
+
+[33mcommit 296c873704e693e59cb51756ea7cd35c14399172[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Mar 5 08:57:26 2021 +0100
+
+    add ran and id variable
+
+[33mcommit c7feaf35680047ec65eb6da7308e6e81b53bcf1d[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Mar 5 08:55:19 2021 +0100
+
+    extends Processsor with Runnable
+
+[33mcommit 584eceac2dc16482ebcdaafebf1adc39bb0224a6[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Mar 5 08:50:32 2021 +0100
+
+    do class App
+
+[33mcommit 3d475a67be2a1d20b75876b2ee1c104bfa25fe78[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Mar 5 08:39:11 2021 +0100
+
+    Start 5.Thread Pools
+
+[33mcommit 1bc32aa32aa34a105c2b7f1896a39d231facfd5e[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Mar 5 08:02:00 2021 +0100
+
+    git init 5/3
+
+[33mcommit 7a1a471fa5d866236dd4dea115bb12228e867f26[m
+Merge: 364ab1a 9f2a204
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Mar 5 08:00:48 2021 +0100
+
+    Merge branch 'master' of https://github.com/omarbodio/CorsoJavaTPSIT into master
+
+[33mcommit 9f2a204eb81b8b4ffc8a0182a5d7753a7832ee68[m
+Author: Omar Bodio <omar.bodio@marconirovereto.it>
+Date:   Fri Feb 26 08:18:09 2021 +0100
+
+    first 26 02
+
+[33mcommit e921297a40bbd5a1240efbd09a17c84db9298ece[m
+Author: Omar Bodio <omar.bodio@marconirovereto.it>
+Date:   Fri Feb 26 08:17:50 2021 +0100
+
+    first commit 26 02
+
+[33mcommit 364ab1accae8afde23494b35110c16eb1ea1e66e[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 19 09:31:10 2021 +0100
+
+    .
+
+[33mcommit 30d765d1040f8a06f6f63ff8885b5f259e72ff6a[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 19 09:29:44 2021 +0100
+
+    last commit 19022021
+
+[33mcommit 8fa4d16f93b62dac0fcee9af3687639e5b67c23f[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 19 09:25:53 2021 +0100
+
+    do Processor.java file
+
+[33mcommit 7073d1aaefe7a02fdd0d89615eb752a3c9acf06f[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 19 09:22:52 2021 +0100
+
+    err resolve
+
+[33mcommit 80b12f81d16c466dca3da02b28643ca7d9c34fb5[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 19 09:21:35 2021 +0100
+
+    adfd shutdown and scanner
+
+[33mcommit bd4447e4a2821d1f279fc3b00f87c818ea66592c[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 19 09:08:33 2021 +0100
+
+    add class Processor
+
+[33mcommit 6e3bde8c5648d68357151794041a70e574216997[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 19 08:05:32 2021 +0100
+
+    first com 19022021
+
+[33mcommit e6b7bd09a6676ae61efe057d799f102c4977f348[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 5 09:13:40 2021 +0100
+
+    add Comment
+
+[33mcommit ed82e672b5d468722fe2a75a830c477c54b7cc28[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 5 08:59:41 2021 +0100
+
+    Add a new Runner (runner2)
+
+[33mcommit 938ca15d93d06e824a9e132e40776da4c23d9bcc[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 5 08:47:15 2021 +0100
+
+    do class App
+
+[33mcommit c303fed3a1d2fdf554e9a0085d39838006d87298[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 5 08:42:32 2021 +0100
+
+    first commit
+
+[33mcommit 12b023bc1d6b61ca74500268e2f17098bfa85928[m
+Author: Omar Bodio <omar.bodio@marconi.loc>
+Date:   Fri Feb 5 08:29:53 2021 +0100
+
+    first commit
